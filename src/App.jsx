@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <nav>
-      <a href="#" className='one'>Divorced Person Concern Advocate</a>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact Us</a>
+      <a href="#" className='logo'>DPCA</a>
+        <a href="#" className='home'>Home</a>
+        <a href="#" className='about'>About</a>
+        <a href="#" className='contact'>Contact Us</a>
       </nav>
       <header>
       </header>
