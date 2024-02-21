@@ -1,20 +1,49 @@
 *{
-    font-size: 26px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body{
-    padding: 0;
-    margin: o;
+    
+    font-family: "Lato",sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
-nav{
+header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #abb8c3;
+    padding: 9px 25px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 9px 25px;
+    background-color: #E6F4FC;
+    font-size: .7375rem;
+    font-weight: 500;
+}
+
+.nav-1{
+    display: flex;
+    gap: 20px;
+}
+
+#consult{
+    border-radius: 20px;
+    background-color: #1a439f;
+    font-size: .7375rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 2.5px;
+    border: 2px solid transparent;
+
 }
 
 
