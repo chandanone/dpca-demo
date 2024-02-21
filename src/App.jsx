@@ -6,17 +6,27 @@ function App() {
   return (
     <>
       <header>
-        <div className='logo'>LOGO- DPCA</div>
-        <div className='timing'>
-          <div>HOURS: MONDAY - FRIDAY; SATURDAY;</div>
-          <div>9.00am - 6.00pm; 11am-4pm;</div>
-          <div>Jail/Police Department visits: 24/7</div>
+       
+        <div className='head-1'>
+          <img src="./dpca-logo.png" 
+            width="100px" height="50px" alt="logo"/></div>
+
+
+        
+        <div className='head-2'>
+          <div className='timing'>
+            <div>HOURS: MONDAY - FRIDAY; SATURDAY;</div>
+            <div>9.00am - 6.00pm; 11am-4pm;</div>
+            <div>Jail/Police Department visits: 24/7</div>
+          </div>
+
+          <div className='contact'>
+            <div><a href="">JOE@DPCALAWGROUP.COM</a></div>
+            <div>(+91) 00000-00000</div>
+            <div>Jharkhand, IN</div>
         </div>
-        <div className='contact'>
-          <div><a href="">JOE@DPCALAWGROUP.COM</a></div>
-          <div>(+91) 00000-00000</div>
-          <div>English\Hindi</div>
         </div>
+       
       </header>
       <nav>
         <div className='nav'>
@@ -40,6 +50,23 @@ function App() {
 
       </main>
       <footer>
+      <div className='head-1'>
+          <img src="./dpca-logo.png" 
+            width="100px" height="50px" alt="logo"/></div>
+        
+        <div className='head-2'>
+          <div className='timing'>
+            <div>HOURS: MONDAY - FRIDAY; SATURDAY;</div>
+            <div>9.00am - 6.00pm; 11am-4pm;</div>
+            <div>Jail/Police Department visits: 24/7</div>
+          </div>
+
+          <div className='contact'>
+            <div><a href="">JOE@DPCALAWGROUP.COM</a></div>
+            <div>(+91) 00000-00000</div>
+            <div>Jharkhand, IN</div>
+        </div>
+        </div>
         copyright reserves,2024
       </footer>
     </>
