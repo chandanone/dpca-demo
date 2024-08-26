@@ -2,6 +2,7 @@ import './App.css'
 
 function App() {
   
+  const currentYear = new Date().getFullYear();
   
   return (
     <>
@@ -66,8 +67,8 @@ function App() {
             <div>(+91) 00000-00000</div>
             <div>Jharkhand, IN</div>
         </div>
-        </div>
-        copyright reserves,2024
+      </div>
+        <div><p>&copy; {currentYear} DPCA. All rights reserved.</p></div>
       </footer>
     </>
   )
