@@ -7,6 +7,7 @@ function App() {
   
   return (
     <>
+    <SideMenu />
       <header>
        
         <div className='head-1'>
@@ -49,7 +50,7 @@ function App() {
       </nav>
       
       <main>
-        <SideMenu />
+        
       </main>
       <footer>
       <div className='head-1'>
