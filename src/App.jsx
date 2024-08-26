@@ -1,4 +1,5 @@
 import './App.css'
+import SideMenu from "./../src/SideMenu"
 
 function App() {
   
@@ -48,7 +49,7 @@ function App() {
       </nav>
       
       <main>
-
+        <SideMenu />
       </main>
       <footer>
       <div className='head-1'>
