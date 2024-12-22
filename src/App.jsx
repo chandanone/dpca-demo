@@ -8,7 +8,7 @@ function App() {
     <div>
 {/*       <header>
        
-        <div className='head-1'>
+        <div className='head-1 min-h-screen bg-background text-foreground'>
           <p>Divorced Person Concern Advocate</p>
           <p>Support and resources for your journey forward</p>
         </div>
