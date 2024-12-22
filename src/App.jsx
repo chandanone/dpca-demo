@@ -11,10 +11,11 @@ function App() {
       <header>
        
         <div className='head-1'>
-          <img src="./dpca-logo.png" 
-            width="100px" height="50px" alt="logo"/>
+{/*           <img src="./dpca-logo.png" 
+            width="100px" height="50px" alt="logo"/> */}
 
           <p>Divorced Person Concern Advocate</p>
+          <p></p>Support and resources for your journey forward</p>
         </div>
         
         <div className='head-2'>
@@ -28,7 +29,7 @@ function App() {
             <div><a href="">JOE@DPCALAWGROUP.COM</a></div>
             <div>(+91) 00000-00000</div>
             <div>Jharkhand, IN</div>
-        </div>
+          </div>
         </div>
        
       </header>
