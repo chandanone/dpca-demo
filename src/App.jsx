@@ -1,5 +1,4 @@
 import './App.css'
-import SideMenu from "./../src/SideMenu"
 
 function App() {
   
@@ -7,13 +6,9 @@ function App() {
   
   return (
     <>
-{/*     <SideMenu /> */}
       <header>
        
         <div className='head-1'>
-{/*           <img src="./dpca-logo.png" 
-            width="100px" height="50px" alt="logo"/> */}
-
           <p>Divorced Person Concern Advocate</p>
           <p></p>Support and resources for your journey forward</p>
         </div>
@@ -72,7 +67,10 @@ function App() {
             <div>Jharkhand, IN</div>
         </div>
       </div>
-        <div><p>&copy; {currentYear} DPCA. All rights reserved.</p></div>
+        <div>
+          <p>&copy; {currentYear} Divorced Person Concern Advocate. All rights reserved.</p>
+          <p>If you're in crisis, please call our 24/7 helpline: 1-800-DIVORCE.</p>
+        </div>
       </footer>
     </>
   )
