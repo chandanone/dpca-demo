@@ -7,14 +7,15 @@ function App() {
   
   return (
     <>
-    <SideMenu />
+{/*     <SideMenu /> */}
       <header>
        
         <div className='head-1'>
           <img src="./dpca-logo.png" 
-            width="100px" height="50px" alt="logo"/></div>
+            width="100px" height="50px" alt="logo"/>
 
-
+          <p>Divorced Person Concern Advocate</p>
+        </div>
         
         <div className='head-2'>
           <div className='timing'>
