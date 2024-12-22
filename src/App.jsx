@@ -54,7 +54,7 @@ function App() {
       </nav>
       
       <main>
-        section className="mb-12 text-center">
+        <section className="mb-12 text-center">
           <h2 className="text-2xl font-semibold mb-4">You're Not Alone</h2>
           <p className="max-w-2xl mx-auto">
             Divorce is a challenging life transition, but it doesn't define your future. We're here to provide support, 
