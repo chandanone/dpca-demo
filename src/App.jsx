@@ -5,12 +5,12 @@ function App() {
   const currentYear = new Date().getFullYear();
   
   return (
-    <>
+    <div>
       <header>
        
         <div className='head-1'>
           <p>Divorced Person Concern Advocate</p>
-          <p></p>Support and resources for your journey forward</p>
+          <p>Support and resources for your journey forward</p>
         </div>
         
         <div className='head-2'>
@@ -72,7 +72,7 @@ function App() {
           <p>If you're in crisis, please call our 24/7 helpline: 1-800-DIVORCE.</p>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 
