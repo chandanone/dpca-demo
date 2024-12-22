@@ -6,7 +6,7 @@ function App() {
   
   return (
     <div>
-      <header>
+{/*       <header>
        
         <div className='head-1'>
           <p>Divorced Person Concern Advocate</p>
@@ -27,6 +27,13 @@ function App() {
           </div>
         </div>
        
+      </header> */}
+
+      <header className="bg-primary text-primary-foreground py-6">
+        <div className="container mx-auto px-4">
+          <h1 className="text-3xl font-bold">Divorced Person Concern Advocate</h1>
+          <p className="mt-2">Support and resources for your journey forward</p>
+        </div>
       </header>
       <nav>
         <div className='nav'>
